@@ -1,0 +1,15 @@
+
+@accessToken = 
+@client_id = 
+@api_key = 
+
+
+GET https://api.bungie.net
+Authorization: bearer {{accessToken}}
+
+###
+GET https://www.bungie.net/en/oauth/authorize
+  ?client_id={{client_id}}
+  &response_type=code
+  &state=6i0mkLx79Hp91nzWVeHrzHG4
+X-API-Key: {{api_key}}
