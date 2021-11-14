@@ -22,7 +22,7 @@ class _AuthorisationPageState extends State<AuthorisationPage> {
   @override
   void initState() {
     super.initState();
-    // Enable hybrid composition.
+    // Enable hybrid composition. see here https://github.com/flutter/plugins/tree/master/packages/webview_flutter/webview_flutter#using-hybrid-composition
     if (Platform.isAndroid) {
       WebView.platform = SurfaceAndroidWebView();
     }

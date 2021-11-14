@@ -53,7 +53,9 @@ class BungieAuthenticator {
   }
 
   Uri getAuthorisationUrl(AuthorizationCodeGrant grant) {
-    return grant.getAuthorizationUrl(redirectUrl, scopes: scopes);
+    // The bungie API doesnt accept scopes so we are not passing them in here
+    // https://github.com/Bungie-net/api/wiki/OAuth-Documentation#authorization-request
+    return grant.getAuthorizationUrl(redirectUrl);
   }
 
   Future<Either<AuthFailure, Unit>> handleAuthorisationResponse(
