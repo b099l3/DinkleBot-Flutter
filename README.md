@@ -23,7 +23,7 @@ I plan to use this project to learn about flutter patterns, test out new framewo
 </p>
 
 #### Architecture
-  - [ ] [ResoCoder](https://github.com/b099l3/DinkleBot/issues/1)
+  - [ ] [ResoCoder - Flutter Developer Bootcamp](https://resocoder.com/fdb/)
 #### Persited Storage
   - [ ] [sembast](https://github.com/tekartik/sembast.dart)
   - [ ] [isar](https://github.com/isar/isar)
