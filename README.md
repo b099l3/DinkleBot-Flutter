@@ -35,7 +35,7 @@ I plan to use this project to learn about flutter patterns, test out new framewo
   - [ ] Snapshot Tests
 #### Misc
 ##### Linting
-  - [ ] [SwiftLint](https://github.com/realm/swiftlint)
+  - [ ] [Lint](https://github.com/passsy/dart-lint)
 ##### CI/CD
   - [ ] GitHub Actions
   - [ ] FastLane deployment to app store
